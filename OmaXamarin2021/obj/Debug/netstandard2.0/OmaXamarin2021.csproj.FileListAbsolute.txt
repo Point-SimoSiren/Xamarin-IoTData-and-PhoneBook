@@ -1,0 +1,14 @@
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\bin\Debug\netstandard2.0\OmaXamarin2021.deps.json
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\bin\Debug\netstandard2.0\OmaXamarin2021.dll
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\bin\Debug\netstandard2.0\ref\OmaXamarin2021.dll
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\bin\Debug\netstandard2.0\OmaXamarin2021.pdb
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\OmaXamarin2021.AssemblyInfoInputs.cache
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\OmaXamarin2021.AssemblyInfo.cs
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\OmaXamarin2021.csproj.CoreCompileInputs.cache
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\OmaXamarin2021.dll
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\ref\OmaXamarin2021.dll
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\OmaXamarin2021.pdb
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\IoTPage.xaml.g.cs
+C:\Users\siren\source\repos\OmaXamarin2021\OmaXamarin2021\obj\Debug\netstandard2.0\MemoPage.xaml.g.cs

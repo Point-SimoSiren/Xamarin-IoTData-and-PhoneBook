@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OmaXamarin2021.MemoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="7" CornerRadius="0">
+                <Label Text="Memo app" HorizontalTextAlignment="Center" TextColor="White" FontSize="22"/>
+            </Frame>
+            <Frame BackgroundColor="Orange">
+            <Grid Margin="30, 0, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4.0*"></ColumnDefinition>
+                    <ColumnDefinition Width="3.0*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0">Nimi</Label>
+                <Label Grid.Row="0" Grid.Column="1">Puhelin</Label>
+            </Grid>
+            </Frame>
+
+            <ListView ItemsSource="{Binding datagrids}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame>
+                                <Grid Margin="30, 0, 0, 0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4.0*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3.0*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Nimi}"></Label>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding Puhelin}"></Label>
+                                    
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

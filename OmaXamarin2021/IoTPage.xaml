@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OmaXamarin2021.IoTPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+        
+        <Label Text="IoT Data from Raspberry pi through cloud rest API" HorizontalTextAlignment="Center" TextColor="White" FontSize="22"/>
+        
+        </Frame>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+        <Button x:Name="latausNappi" Clicked="latausNappi_Clicked" Background="lime" Text="Refresh"></Button>
+            <Button x:Name="naviNappi" Clicked="naviNappi_Clicked" Background="orange" Text="Memo"></Button>
+        </StackLayout>
+            <ListView x:Name="dataLista"></ListView>
+       
+    </StackLayout>
+
+</ContentPage>

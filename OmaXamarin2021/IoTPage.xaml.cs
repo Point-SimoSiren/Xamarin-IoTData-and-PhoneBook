@@ -33,6 +33,7 @@ namespace OmaXamarin2021
                 {
                     string merkkijono = item.time.ToString() + ": Temp: " + item.temperature.ToString() +
                   "C, Hum: " + item.humidity.ToString() + "%";
+                  stringList.Add(merkkijono);
                 }
 
                 dataLista.ItemsSource = stringList;
